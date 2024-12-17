@@ -3,6 +3,7 @@
   --figure-color: #EBEBEB;
   --figure-color-subtle: #6a6a6a;
   --graphic-color: #4C4C4C;
+  --hill-color: #2e2e2e;
   --ground-color: #101010;
   --section-color: #2E2E2E;
   --accent-color: #94B5E9;
@@ -11,23 +12,19 @@
 
 /* CSS Reset */
 * {
-  /* margin: 0;
-  padding: 0;
-  box-sizing: border-box; */
+  /* margin: 0; */
+  /* padding: 0; */
   color: var(--figure-color);
   background-color: var(--ground-color);
   border-color: var(--graphic-color);
 }
 
-/* html {
-  font-size: 13pt;
-} */
+/* elements */
 
-/* body {
-  font-family: Arial, sans-serif;
+html {
   font-size: 13pt;
-  line-height: 1.618;
-} */
+  line-height: 21pt;
+}
 
 a {
   color: var(--accent-color);
@@ -42,9 +39,8 @@ a:hover {
 button {
   background-color: var(--graphic-color);
   color: var(--figure-color);
-  /* border: none;
-  cursor: pointer;
-  font-size: 13pt; */
+  padding: 13pt;
+  font-size: 21pt;
 }
 
 button:focus,
@@ -53,53 +49,49 @@ button:hover {
   background-color: var(--hover-focus-color);
 }
 
-/*
-h1 {
-  text-align: center;
-  font-size: 34pt;
+p {
+  margin: 0 0 0 0;
 }
-*/
-
-/*
-main {
-  padding: 21px;
-} 
-*/
-
-/*
-fieldset {
-  border: 0px solid var(--graphic-color);
-  border-radius: 13pt;
-  margin: 13pt; 
-} 
-*/
 
 legend {
-  /* text-align: center; */
   color: var(--figure-color);
   background-color: var(--ground-color);
-  /* padding: 8pt; */
 }
 
 label {
-  /* display: block; */
-  /* font-weight: bold;0 */
   color: var(--figure-color);
-  /* padding: 0pt 8pt; */
-  /* margin: 0pt; */
 }
 
-/*
-input, select {
-  width: 100%;
-  padding: 8pt;
-  margin: 8pt 8pt;
-} 
-*/
 
-/* Flexbox layout for rows */
+input, select {
+  padding: 8pt;
+  font-size: 13pt;
+  border-bottom: 1pt solid var(--graphic-color);
+} 
+
+output {
+  padding: 8pt;
+  font-size: 21pt;
+}
+
+/* classes */
+
+.section {
+    border-radius: 13pt;
+    border-top: 1pt solid var(--hill-color);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  padding: 13pt;
+  margin: 0;
+  gap: 8pt;
+}
+
 .row {
   display: flex;
-  align-items: center; /* Vertically centers label and input */
-  margin-bottom: 10px;
+  padding: 0 13pt;
+  margin: 0;
+  gap: 13pt;
 }

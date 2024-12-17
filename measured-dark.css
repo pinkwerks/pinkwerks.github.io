@@ -94,4 +94,5 @@ output {
   padding: 0 13pt;
   margin: 0;
   gap: 13pt;
+  align-items: center;
 }

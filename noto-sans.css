@@ -1,31 +1,31 @@
 .noto-sans-thin {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
-  .noto-sans-extralight {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+.noto-sans-extralight {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
-  .noto-sans-light {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+.noto-sans-light, h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
-  .noto-sans-regular {
+.noto-sans-regular, p {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -35,48 +35,48 @@
 }
 
 .noto-sans-medium {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
-  .noto-sans-semibold {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+.noto-sans-semibold {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
-  .noto-sans-bold {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+.noto-sans-bold {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
-  
-  .noto-sans-extrabold {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
 
-  
-  .noto-sans-black {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+.noto-sans-extrabold {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.noto-sans-black {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

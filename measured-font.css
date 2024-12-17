@@ -1,4 +1,4 @@
-.noto-sans-thin {
+.font-thin {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -7,7 +7,7 @@
     "wdth" 100;
 }
 
-.noto-sans-extralight, h2 {
+.font-extralight, h2 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -16,7 +16,7 @@
     "wdth" 100;
 }
 
-.noto-sans-light, h1 {
+.font-light, h1 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -25,7 +25,7 @@
     "wdth" 100;
 }
 
-.noto-sans-regular, p {
+.font-regular, p {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -34,7 +34,7 @@
     "wdth" 100;
 }
 
-.noto-sans-medium {
+.font-medium {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -43,7 +43,7 @@
     "wdth" 100;
 }
 
-.noto-sans-semibold {
+.font-semibold {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -52,7 +52,7 @@
     "wdth" 100;
 }
 
-.noto-sans-bold {
+.font-bold {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -62,7 +62,7 @@
 }
 
 
-.noto-sans-extrabold {
+.font-extrabold {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -72,7 +72,7 @@
 }
 
 
-.noto-sans-black {
+.font-black {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;

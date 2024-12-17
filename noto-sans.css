@@ -7,7 +7,7 @@
     "wdth" 100;
 }
 
-.noto-sans-extralight {
+.noto-sans-extralight, h2 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;

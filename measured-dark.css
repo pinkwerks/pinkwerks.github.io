@@ -28,7 +28,7 @@ a:hover {
 }
 
 body {
-  line-height: 1.618em;
+  line-height: 1.618rem;
 }
 
 button {
@@ -65,19 +65,6 @@ h2 {
   color: var(--figure-subtle);
 }
 
-legend {
-  color: var(--figure);
-  background-color: var(--ground);
-}
-
-label {
-  color: var(--figure-subtle);
-}
-
-p {
-  margin: 0;
-}
-
 input {
   color: var(--figure);
   background-color: var(--ground);
@@ -87,6 +74,26 @@ input {
   border-bottom: .1618rem solid var(--graphic);
   border-left: 0;
   border-right: 0;
+}
+
+input[type="range"] {
+  flex: 1; /* Make the range slider take up available space */
+  margin: 0; /* Remove extra margins */
+  min-width: 0; /* Remove extra width */
+}
+
+legend {
+  color: var(--figure);
+  background-color: var(--ground);
+}
+
+label {
+  color: var(--figure-subtle);
+  white-space: nowrap;
+}
+
+p {
+  margin: 0;
 }
 
 select {
@@ -139,7 +146,7 @@ output {
   display: flex;
   padding: 0 1rem;
   margin: 0;
-  gap: 1em 1em;
+  gap: 1rem 1rem;
   align-items: center;
 }
 

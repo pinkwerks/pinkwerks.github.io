@@ -16,7 +16,7 @@
     "wdth" 100;
 }
 
-.font-light, h1, label {
+.font-light, h1, select, label {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -25,7 +25,7 @@
     "wdth" 100;
 }
 
-.font-regular, p, select, dd {
+.font-regular, p, dd {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;

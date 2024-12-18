@@ -34,6 +34,7 @@ body {
 button {
   background-color: var(--graphic);
   color: var(--figure);
+  border-color: var(--graphic);
   padding: 1rem;
   font-size: 2rem;
   border-radius: 1rem;;
@@ -97,6 +98,18 @@ select {
   border-left: .1618rem solid var(--graphic);
   border-top: 0;
   border-right: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
 }
 
 output {

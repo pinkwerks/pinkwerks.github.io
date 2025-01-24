@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML Element Test Page</title>
+
+      <!-- pinkwerks -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+          href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tilt+Prism&display=swap"
+          rel="stylesheet">
+  
+      <link rel="stylesheet" href="measured-font.css">
+      <link rel="stylesheet" href="measured-dark.css">
+  
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <!-- /pinkwerks -->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+
+  <!-- <style>
+    /* OPTIONAL: Inline CSS for quick visual differentiation */
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      line-height: 1.4;
+    }
+    header, nav, main, footer, section, article, aside {
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px solid #ccc;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+    }
+  </style> -->
+
+</head>
+<body>
+
+  <!-- Header and Nav -->
+  <header>
+    <h1>HTML Element Test Page</h1>
+    <p>This page includes a variety of HTML elements for CSS testing.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#headings">Headings</a></li>
+      <li><a href="#text">Text Elements</a></li>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#tables">Tables</a></li>
+      <li><a href="#forms">Forms</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#semantic">Semantic Elements</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Headings Section -->
+    <section id="headings">
+      <h2>Headings</h2>
+      <h1>Heading Level 1</h1>
+      <h2>Heading Level 2</h2>
+      <h3>Heading Level 3</h3>
+      <h4>Heading Level 4</h4>
+      <h5>Heading Level 5</h5>
+      <h6>Heading Level 6</h6>
+    </section>
+
+    <!-- Text Elements Section -->
+    <section id="text">
+      <h2>Text Elements</h2>
+      <p>This is a paragraph with <strong>strong/bold text</strong> and <em>emphasized/italic text</em>. Here is some <mark>highlighted text</mark> as well.</p>
+      <p>Here’s a <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">link to example.com</a>.</p>
+
+      <blockquote>
+        This is a blockquote. Blockquotes are typically used to cite large sections of quoted text.
+      </blockquote>
+
+      <pre>
+function helloWorld() {
+  console.log("Hello, World!");
+}
+      </pre>
+
+      <p>Inline <code>code snippet</code> example.</p>
+
+      <p>
+        <small>This is small text</small>,
+        <abbr title="HyperText Markup Language">HTML</abbr>,
+        <cite>Cited text</cite>,
+        <del>Deleted text</del>,
+        <ins>Inserted text</ins>.
+      </p>
+    </section>
+
+    <!-- Lists Section -->
+    <section id="lists">
+      <h2>Lists</h2>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2
+          <ul>
+            <li>Nested list item A</li>
+            <li>Nested list item B</li>
+          </ul>
+        </li>
+        <li>List item 3</li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ol>
+
+      <h3>Description List</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>A markup language for creating web pages.</dd>
+        <dt>CSS</dt>
+        <dd>A language for styling HTML documents.</dd>
+      </dl>
+    </section>
+
+    <!-- Tables Section -->
+    <section id="tables">
+      <h2>Tables</h2>
+      <table>
+        <caption>Sample Table</caption>
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+          </tr>
+          <tr>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Table Footer</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Forms Section -->
+    <section id="forms">
+      <h2>Forms</h2>
+      <form>
+        <label for="text-input">Text Input:</label>
+        <input type="text" id="text-input" name="text-input" placeholder="Enter text here" />
+
+        <br /><br />
+
+        <label for="email-input">Email:</label>
+        <input type="email" id="email-input" name="email-input" placeholder="example@example.com" />
+
+        <br /><br />
+
+        <label for="password-input">Password:</label>
+        <input type="password" id="password-input" name="password-input" placeholder="Enter password" />
+
+        <br /><br />
+
+        <label for="select">Select:</label>
+        <select id="select" name="select">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+        </select>
+
+        <br /><br />
+
+        <fieldset>
+          <legend>Radio Buttons</legend>
+          <input type="radio" id="radio1" name="radio-group" value="1" />
+          <label for="radio1">Radio 1</label><br />
+          <input type="radio" id="radio2" name="radio-group" value="2" />
+          <label for="radio2">Radio 2</label>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Checkboxes</legend>
+          <input type="checkbox" id="checkbox1" name="checkbox1" />
+          <label for="checkbox1">Checkbox 1</label><br />
+          <input type="checkbox" id="checkbox2" name="checkbox2" />
+          <label for="checkbox2">Checkbox 2</label>
+        </fieldset>
+
+        <br />
+
+        <label for="textarea">Textarea:</label>
+        <br />
+        <textarea id="textarea" name="textarea" rows="4" cols="50">
+Default text
+        </textarea>
+
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+      <h2>Media</h2>
+      <figure>
+        <img src="logo.png" alt="Placeholder Image" />
+        <figcaption>Figcaption for the above image.</figcaption>
+      </figure>
+
+      <figure>
+        <img alt="Placeholder Image" />
+      </figure>
+
+      <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- Semantic Elements Section -->
+    <section id="semantic">
+      <h2>Semantic Elements</h2>
+
+      <article>
+        <h3>Article Title</h3>
+        <p>
+          This is an article element. Articles are self-contained content that
+          can be independently distributed or reused.
+        </p>
+      </article>
+
+      <aside>
+        <h4>Aside</h4>
+        <p>
+          The aside element typically contains content that is tangentially
+          related to the article or page content.
+        </p>
+      </aside>
+
+      <details>
+        <summary>Details / Summary</summary>
+        <p>
+          Details elements can be expanded to reveal additional information. Click the summary above to toggle the content.
+        </p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name or Company</p>
+  </footer>
+
+</body>
+</html>

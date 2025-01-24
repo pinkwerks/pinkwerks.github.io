@@ -16,7 +16,7 @@
     "wdth" 100;
 }
 
-.font-light, h1, select, label {
+.font-light, h1, h2, h3, h4, h5, h6, select, label {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -25,7 +25,7 @@
     "wdth" 100;
 }
 
-.font-regular, p, dd {
+.font-regular, p, dd, li, tr, th, table {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -34,7 +34,16 @@
     "wdth" 100;
 }
 
-.font-medium, dt {
+.font-regular-italic, blockquote, legend, figure {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.font-medium, dt, textarea {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -81,7 +90,7 @@
 }
 
 
-.font-black {
+.font-black, strong {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
